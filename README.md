@@ -2,7 +2,7 @@
 
 + Encapsulamento
 + Arrays
-+ Respondedo a Atividade
++ Respondendo a Atividade
 
 ### Questão
 
