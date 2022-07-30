@@ -1,6 +1,4 @@
-# Revisão de PROO
-
-## Aula 1
+# Aula 1
 
 + Encapsulamento
 + Arrays
