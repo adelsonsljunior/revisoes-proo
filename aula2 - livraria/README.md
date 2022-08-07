@@ -37,4 +37,6 @@ Utilize vetores para ligar os livros e encapsular todos os atributos. Na sua apl
 
 10- Remover livro
 
+<br>
 
+![gif](https://c.tenor.com/Q6HPGn7dJKAAAAAC/shinji-terror.gif)
