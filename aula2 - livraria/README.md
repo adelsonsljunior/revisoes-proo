@@ -7,8 +7,8 @@
 + [Encapsulamento](./Anotacoes.md#encapsulamento)
 + [Arrays](./Anotacoes.md#arrays)
 + [Verificação do null](./Anotacoes.md#verificação-do-null)
-+ Respondendo Atividade
 + [Sistemas de Gerenciamento - CRUD](./Anotacoes.md#crud)
++ Respondendo Atividade
 
 ## Questão
 
