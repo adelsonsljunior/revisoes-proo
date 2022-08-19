@@ -170,7 +170,7 @@ public class Main {
 
 
         // ArrayList Avançado
-        nomes = (ArrayList<String>) nomes.stream().filter(pesquisa3 -> !pesquisa3.equalsIgnoreCase("Batman")).collect(Collectors.toList());
+        // nomes = (ArrayList<String>) nomes.stream().filter(pesquisa3 -> !pesquisa3.equalsIgnoreCase("Batman")).collect(Collectors.toList());
         // Super dica do Manuel. Confia
 
     }
