@@ -42,7 +42,7 @@ public class Main{
 
 # Construtores
 
-+ ***Construtores*** são métodos, que possuem o mesmo nome da classe, e são responsáveis pela instanciação da classe,inicialização dos atributos e podem ou não possuir parâmetros
++ ***Construtores*** são métodos que possuem o mesmo nome da classe, são responsáveis pela instanciação da classe,inicialização dos atributos e podem ou não possuir parâmetros.
 
     + "A **instanciação** é um processo por meio do qual se realiza a cópia de um objeto (classe) existente. Uma classe, a qual tem a função de determinar um tipo de dado, deve ser instanciada para que possamos utilizá-la"
 
@@ -60,16 +60,16 @@ public Pessoa(String nome, int idade, float altura) {
 
 # Boas Práticas em POO
 
-+ As boas práticas são padrões que devem ser siguidos em POO para melhor compreeensão de código.
++ As boas práticas são padrões que devem ser seguidos em POO, com Java ou outras linguagens, para melhor compreeensão de código.
 
-    + Toda classe começa com letra maiúscula
+    + Toda classe começa com letra maiúscula.
 
-        |Pessoa.java| ✔️|
+        |Pessoa.java|✔️|
         |-----------|--|
         |pessoa.java|❌|
     
 
-    + Todo atributo e método começa com letra minúscula
+    + Todos os atributos e métodos começam com letra minúscula.
 
   ~~~
     // Atributos
@@ -82,7 +82,7 @@ public Pessoa(String nome, int idade, float altura) {
     public void envelhecer()
   ~~~
 
-    + Para criar um atributo, método ou classe com nome composto, basta seguir as regras anteriores e após o primeiro nome, todo nome é colocado junto, sem espaço e com letra maiúscula
+    + Para criar um atributo, método ou classe com nome composto, basta seguir as regras anteriores e após o primeiro nome, todo nome é colocado junto, sem espaço e com letra maiúscula.
   
   <br>
 
@@ -97,7 +97,7 @@ public Pessoa(String nome, int idade, float altura) {
     public void exibirPessoa()
   ~~~
 
-    + Não se deve usar caracterires especiais para criar um atributo, método ou classe com nome composto, sempre use a regra anterior.
+    + **Não se deve usar caracteres especiais para criar um atributo, método ou classe com nome composto, sempre use a regra anterior.**
 
 <br>
 
@@ -125,15 +125,15 @@ public Pessoa(){
 
 + Classes devem ser independentes, logo o **encapsulamento** serve para outras classes não interferirem entre si.
 
-+ O **encapsulamento** é feito colocando as seguintes palavras reservadas antes do tipo do atributo e método ou  na declaração (como visto nos códigos de exemplo acima). 
++ O **encapsulamento** é feito colocando as seguintes palavras reservadas antes do tipo dos atributo e método na sua declaração (como visto nos códigos de exemplo acima). 
 
-    + **public**  - pode ser visto e usado por todas as classes 
+    + **public**  - pode ser visto e usado por todas as classes.
     + **private** - só pode ser visto e usado pela classse.
 
 + Deve se seguir as regras:
 
-    + Todo atributo é privato
-    + Todo método pode ser público
+    + Todo atributo é privato.
+    + Todo método pode ser público.
 
 
 ## Métodos gets e sets
@@ -188,11 +188,11 @@ pessoa.setNome("Batman");
 
 # Arrays
 
-+ Arrays são conjuntos de dados do mesmo tipo, sendo divido em posições e cada posição é acessada por meio de índice. O valor presente em cada posições é chamado de elemento.
++ Arrays são conjuntos de dados do mesmo tipo, sendo divido em um número de posições determinado e cada posição é acessada por meio de índice. O valor presente em cada posições é chamado de elemento.
 
 + Também é chamado de **Vetor**
 
-+ Declaração de um Array em Java:
+### Declaração de um Array em Java:
 
 ~~~
 tipoDoArray[] nomeDoArray = new tipoDoArray[numeroDePosicoesDoArray];
@@ -230,6 +230,28 @@ public class Main{
 
 <br>
 
+### Usando For Each
+
++ For Each (para cada), é um laço de repetição que percorre todas as posições de Array.
+
+~~~
+for (tipoDoArray nomeDoArrayNoSingular : nomeDoArray){
+    //Ação que deseja relizar
+}
+~~~
+
+<br>
+
+~~~
+Pessoa[] pessoas = new Pessoa[10];
+
+for (Pessoa pessoa : pessoas){
+    System.out.println(pessoa.getNome());
+}
+~~~
+
+<br>
+
 # Verificação do null
 
 + Todo Array de objetos, quando é declarado dando seu tamanho (como é mostrado acima), começa com todas as suas posições nulas (com null).
@@ -238,9 +260,9 @@ public class Main{
 
 + Então precisamos fazer a veficação do null em cada posição posição do Array para que não aja erros no decorrer do código.
 
-    + Primeiro, é necessário vefificar se a posição é nula, para poder fazer sua instanciação. 
+    + Primeiro, é necessário vefificar se a posição é igual a null, para poder fazer sua instanciação. 
 
-    + Após isso, sempre que for realizar uma ação usando o array é necessário verificar se a posição é diferente de nula.
+    + Após isso, sempre que for realizar uma ação usando o array é necessário verificar se a posição é diferente de null.
 
 ~~~
 public class Main{
@@ -266,4 +288,4 @@ public class Main{
 
 # CRUD
 
-+  CRUD é a sigla para Create (criação), Read (leitura), Update (atualização) e Delete (exclusão). Sendo um modelo de sistema de gerencimaneto.
++  CRUD é a sigla para Create (criação), Read (leitura), Update (atualização) e Delete (exclusão). Sendo um modelo de sistema de gerenciamento.
