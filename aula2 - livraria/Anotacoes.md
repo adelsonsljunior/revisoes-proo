@@ -188,7 +188,7 @@ pessoa.setNome("Batman");
 
 # Arrays
 
-+ Arrays são conjuntos de dados do mesmo tipo, sendo divido em um número de posições determinado e cada posição é acessada por meio de índice. O valor presente em cada posições é chamado de elemento.
++ Arrays são conjuntos de dados do mesmo tipo, sendo divido em um número de posições determinado e cada posição é acessada por meio de um índice. O valor presente em cada posições é chamado de elemento.
 
 + Também é chamado de **Vetor**
 
@@ -232,7 +232,7 @@ public class Main{
 
 ### Usando For Each
 
-+ For Each (para cada), é um laço de repetição que percorre todas as posições de Array.
++ For Each (para cada), é um laço de repetição que percorre todas as posições do Array.
 
 ~~~
 for (tipoDoArray nomeDoArrayNoSingular : nomeDoArray){
