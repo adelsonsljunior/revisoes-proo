@@ -4,18 +4,16 @@
 
 > Herança são um conjunto de comportamentos que uma classe filha herda de uma classe mãe.
 
-A classe mãe contém todos os atributos e métodos que vão ser herdados pelas classes filhas, sendo assim servindo como uma base para as classes filhas.
+A classe mãe contém todos os atributos e métodos que vão ser herdados pelas classes filhas, sendo assim usada como uma base para as classes filhas.
 
 As classes filhas herdam todo que está na classe mãe.
-
-Logo, podemos dizer que a herança é 
 
 Deve se seguir as regras:
 
 + Uma classe mãe pode ter várias classes filhas.
 + Uma classe filha possui apenas uma classe mãe.
 
-A herança é feita na classe filha em sua declaração usando a palavra reservada **extends** seguida pelo nome da classe mãe, logo após no nome da classe filha.
+A herança é feita na classe filha em sua declaração usando a palavra reservada **extends** seguida pelo nome da classe mãe.
 
 Uma classe filha pode acessar os métodos e atributos da classe mãe através da palavra reservada **super**, que serve para se referir a classe mãe.
 
