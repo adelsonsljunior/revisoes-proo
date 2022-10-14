@@ -112,7 +112,7 @@ public abstract class ObjetoGeometrico {
 
 Métodos Abstratos são métodos que são herdados obrigatoriamente pelas classes filhas.
 
-A declaração é feita colocando a palavra reservada **abstract** após o modificador de acesso e incerrando com ponto e vírgula, sem usar chaves.
+A declaração é feita colocando a palavra reservada **abstract** após o modificador de acesso, em seguida são defidos o retorno, o nome, os parâmetros do método e e encerrando com ponto e vírgula, sem usar chaves.
 
 ~~~
 public abstract class ObjetoGeometrico {
@@ -203,3 +203,5 @@ public class Triangulo extends ObjetoGeometrico {
     }
 }
 ~~~
+
+# Interfaces
