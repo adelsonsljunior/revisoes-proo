@@ -205,3 +205,15 @@ public class Triangulo extends ObjetoGeometrico {
 ~~~
 
 # Interfaces
+
+<br>
+
+> Explicação do Mestre Guilherme 🛐😎
+
+![WhatsApp Image 2022-10-14 at 20 16 20](https://user-images.githubusercontent.com/94010073/195956745-3dba9ec2-1a9d-47d3-8777-522386eaf23d.jpeg)
+
+![WhatsApp Image 2022-10-12 at 14 35 27](https://user-images.githubusercontent.com/94010073/195956825-be71874f-2caf-4b7d-9383-30ed99c4fec9.jpeg)
+
+![WhatsApp Image 2022-10-12 at 14 35 51](https://user-images.githubusercontent.com/94010073/195956837-a8c9aed8-b66d-4fe4-939a-b2bed4b02458.jpeg)
+
+
